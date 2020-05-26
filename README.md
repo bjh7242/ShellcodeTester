@@ -35,3 +35,4 @@ The following files are just for sample output and are not actually used with ru
 * poc.c
 
 All of these files were included to provide a sample of shellcode to test. The sample shellcode being used will execute "/bin/sh"
+To disassemble the default `shellcode.bin` file, run: `ndisasm -b 64 shellcode.bin`
