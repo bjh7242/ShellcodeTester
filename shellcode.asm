@@ -1,3 +1,5 @@
+BITS 64;
+
 xor eax, eax
 mov rbx, 0xFF978CD091969DD1
 neg rbx
