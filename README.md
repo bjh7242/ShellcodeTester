@@ -27,3 +27,11 @@ This script takes a string of hex characters and writes it out to a binary blob 
 To view the assembly output from your shellcode, you can run `ndisasm shellcode.bin`
 
 This script does not take any command line arguments and must be modified to store your shellcode in the scode variable.
+
+## Note
+The following files are just for sample output and are not actually used with running the script:
+* shellcode
+* shellcode.asm
+* poc.c
+
+All of these files were included to provide a sample of shellcode to test. The sample shellcode being used will execute "/bin/sh"
